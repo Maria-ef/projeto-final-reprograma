@@ -1,0 +1,26 @@
+.menuContainer {
+    height: 4rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 1rem;
+    padding-left: 1px;
+    list-style: none;
+}
+
+.menuLink {
+    text-decoration: none;
+    color: #d017b1;
+    font-size: 1.5rem;
+}
+
+.menuLink:hover {
+   color: rgb(30, 183, 235);
+   text-decoration: underline;
+}
+
+.logo {
+    width: 35vh;
+}
