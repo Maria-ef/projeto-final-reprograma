@@ -1,0 +1,15 @@
+.cardImage {
+    width: 30vh;
+    height: 15vh;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px #f87de4;
+    align-items: center;
+}
+
+.cardText {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+

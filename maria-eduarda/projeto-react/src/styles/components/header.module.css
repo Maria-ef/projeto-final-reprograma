@@ -23,11 +23,13 @@
 
 .headerText {
     text-align:justify;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 1rem;
+    font-family: sans-serif;
 }
 
 .headerDescription {
     text-align:justify;
-    font-weight: 600;
+    font-weight: 500;
+    font-family: sans-serif;
 }

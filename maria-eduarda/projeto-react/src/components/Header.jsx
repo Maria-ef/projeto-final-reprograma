@@ -4,7 +4,7 @@ const Header = ({ title, image, text, description }) => {
   return (
     <header className={styles.headerContainer}>
       <div>
-        <img className={styles.headerImage} src={image} alt={title} />
+        <img className={styles.headerImage} src={image} />
       </div>
         
       <div>

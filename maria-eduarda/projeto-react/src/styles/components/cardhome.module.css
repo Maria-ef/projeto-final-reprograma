@@ -1,8 +1,10 @@
 .cardTitle {
     font-size: 1.5rem;
     color: #d017b1;
+    margin-bottom: 0.5rem;
 }
 
 .cardDescription {
-    font-weight: 600;
+    font-weight: 500;
+    font-family: sans-serif;
 }

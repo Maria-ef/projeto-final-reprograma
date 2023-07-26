@@ -29,7 +29,7 @@ const Home = () => {
     {cardTitle:"Desenvolvimento de e-commerce", cardDescription:"A venda pela internet tem se tornado uma das formas mais famosas de comercialização de produtos. Os e-commerces, portanto, precisam de quem possa desenvolvê-los. Criar e-commerce é mais uma das áreas da tecnologia que há uma grande demanda de profissionais. Seja para montar a loja, o software de cobrança ou para realizar a sua manutenção."},
     {cardTitle:"Cloud computing", cardDescription:"Progressivamente, usuários utilizam as facilidades do armazenamento virtual. E o cloud computing não fica de fora. A computação na nuvem requer um profissional que planeje e execute seus processos nas empresas. Assim como ser capaz de realizar a integração do cloud computing com as outras tecnologias da empresa, como a internet das coisas."},
     {cardTitle:"Mídias sociais", cardDescription:"Esse profissional é responsável por técnicas, estratégias e produções que fazem com que as redes sociais de alguma corporação fiquem mais conhecidas. Além disso, é importante que o profissional tenha conhecimento de ferramentas tecnológicas que se liguem ao mundo das mídias sociais."}
-]
+  ]
 
     function generateCards(cardList) {
      
@@ -48,12 +48,13 @@ const Home = () => {
     <>
       <Header
         image={home}
-        title="Bem-vindas ao nosso site Mulheres na Tecnologia!"
+        title='Bem-vindas ao nosso site "Mulheres na Tecnologia"!'
         text="A indústria da tecnologia tem sido historicamente dominada por homens, mas estamos determinadas a mudar essa realidade. Acreditamos que cada mulher possui um potencial incrível para impulsionar a inovação e promover transformações significativas no mundo através da tecnologia. Queremos quebrar barreiras, desafiar estereótipos e garantir que todas as mulheres interessadas tenham a oportunidade de se destacar nesse campo."
         description="Aqui, incentivamos mulheres a seguirem carreira na área tech. Neste site, você encontrará informações valiosas para ajudá-la a iniciar e progredir em sua jornada na área de tecnologia. Desde guias práticos sobre como escolher a carreira certa até histórias inspiradoras de mulheres bem-sucedidas na indústria. Nosso objetivo é fornecer conhecimentos relevantes e ferramentas indispensáveis para o seu sucesso."
         />
         
-        <h3 className={styles.homeTitle}>hudahuahd</h3>
+        <h3 className={styles.homeTitle}>Quer saber um pouco mais sobre áreas da tecnologia?</h3>
+        <h4 className={styles.homeSubtitle}>Confira algumas delas a seguir:</h4>
         <div className={styles.homeProfessions}>
           {generateCards(list)}
         </div>

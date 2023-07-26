@@ -1,0 +1,144 @@
+.headerContainer {
+    background-color: #fee1f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 3rem;
+}
+
+.aboutTitle {
+    font-size: 2rem;
+    color: #d017b1;
+    padding-bottom: 1rem;
+}
+
+.headerImage {
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px #f87de4;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.photo {
+    width: 50vh;
+    border-radius: 150px;
+    box-shadow: 1px 1px 10px #d017b1;
+}
+
+.aboutText {
+    margin-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+}
+
+.curiosityTitle {
+    font-family: sans-serif;
+    color: #d017b1;
+    margin-bottom: 0.5rem;
+    
+}
+
+.li {
+    font-family: sans-serif;
+}
+
+.formTitle {
+    color: #d017b1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.form {
+    width: 95%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 8px #d017b1;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.formInput {
+    width: 60%;
+    padding: .6rem 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #d017b1;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical; /*aumentar enquanto a pessoa digita*/
+}
+
+.formButton {
+    width: 60%;
+    padding: .6rem 2rem;
+    background-color: #d017b1;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formButton:hover {
+    background-color: #ff7fdd;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* background-color: #d017b1; */
+  border-radius: 10px;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.github {
+    background-color: rgb(250, 215, 220);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px #d017b1;
+    
+}
+
+.linkedin {
+    background-color: rgb(250, 215, 220);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px #d017b1;
+}
+
+.instagram {
+    background-color:  rgb(250, 215, 220);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px #d017b1;
+}
+
+.buttonImage {
+  height: 15vh;
+  margin-bottom: 1rem;
+}
+
+.button {
+    background-color: rgb(250, 215, 220);
+    font-family: sans-serif;
+    border-radius: 4px;
+
+}
+
