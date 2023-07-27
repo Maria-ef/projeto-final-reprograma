@@ -1,0 +1,9 @@
+.span {
+    color: #d017b1;
+    cursor: pointer;
+}
+
+.description {
+    font-family: sans-serif;
+    text-align: justify;
+}

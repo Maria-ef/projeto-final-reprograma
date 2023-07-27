@@ -54,7 +54,7 @@ const Home = () => {
         />
         
         <h3 className={styles.homeTitle}>Quer saber um pouco mais sobre áreas da tecnologia?</h3>
-        <h4 className={styles.homeSubtitle}>Confira algumas delas a seguir</h4>
+        <h4 className={styles.homeSubtitle}>Confira algumas abaixo</h4>
         <div className={styles.homeProfessions}>
           {generateCards(list)}
         </div>

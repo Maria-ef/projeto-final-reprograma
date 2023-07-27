@@ -11,10 +11,12 @@ const Cards = ({image, description, title, text, link}) => {
           <div className={styles.cardText}>
             <h1 className={styles.cardTitle}>{title}</h1>
             <p className={styles.cardDescription}>{text}</p>
-            <p className={styles.cardDescription}>{description}</p>
+            <p className={styles.cardDescription}>{description}
             <Link to={link} target='_blank'>
             <button className={styles.cardButton}>Saiba mais</button>
             </Link>
+            </p>
+            
             
           </div>
         </div>

@@ -15,9 +15,81 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:1rem;
 }
 
 .cardImage {
     width: 50vh;
     border-radius: 200px;
+}
+
+.cardText {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.cardSpan {
+    color: #d017b1;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+
+}
+
+.cardSpan:hover {
+    cursor:grab;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1400px) {
+
+.cards {
+    width: 87%;
+    justify-content: center;
+}
+
+.cardImage {
+    width: 30vh;
+}
+
+}
+
+@media screen and (max-width: 700px) {
+
+.cards {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.cardImage {
+    width: 20vh;
+    margin-top: 1rem;
+}
+}
+
+@media screen and (max-width: 520px) {
+    
+    .cards {
+        width: 75%;
+        justify-content: center;
+        
+    }
+    
+    .cardImage {
+      width: 17vh;
+    }
+    
+}
+
+@media screen and (max-width: 485px) {
+
+    .cardImage {
+        width: 15vh;
+    }
+
 }

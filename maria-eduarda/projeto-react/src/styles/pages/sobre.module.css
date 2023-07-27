@@ -102,7 +102,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  /* background-color: #d017b1; */
   border-radius: 10px;
   gap: 1rem;
   margin-bottom: 2rem;
@@ -124,7 +123,8 @@
 }
 
 .buttonImage {
-  height: 15vh;
+  width: 10vh;
+  height: auto;
   margin-bottom: 1rem;
 }
 
@@ -145,3 +145,41 @@
     box-shadow: 1px 1px 6px #d017b1;
 }
 
+.sobreLink {
+    text-decoration: none;
+    color: #d017b1;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .photo {
+      width: 30vh;
+    }
+
+    .form {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .formInput {
+        font-size: .6rem;
+    }
+}

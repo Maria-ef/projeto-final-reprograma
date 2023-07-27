@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 
+import InspDescription from '../components/InspDescription'
+
 import styles from '../styles/components/cardinspiracoes.module.css'
 
 const CardInspiracoes = ({image, description, title, link}) => {
@@ -9,11 +11,13 @@ const CardInspiracoes = ({image, description, title, link}) => {
             <img className={styles.cardImage} src={image} />
           </div>
           <div className={styles.cardText}>
-            <h1 className={styles.cardTitle}>{title}</h1>
-            <p className={styles.cardDescription}>{description}</p>
-            <Link to={link} target='_blank'>
-            <button className={styles.cardButton}>LinkedIn</button>
+          <Link to={link} target='_blank'>
+            <span className={styles.cardSpan}>{title}</span>
             </Link>
+            <InspDescription
+            texto={description}
+            />
+            
             
           </div>
         </div>

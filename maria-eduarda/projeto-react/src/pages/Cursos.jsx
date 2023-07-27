@@ -27,39 +27,39 @@ const Cursos = () => {
       linkTo:"https://reprograma.com.br/"},
     {cardImage: programaria, 
       cardTitle:"PROGRAMARIA", 
-      cardText:"Para uma menina, o desafio de programar se inicia antes mesmo da tentativa de aprender. Faltam exemplos que inspirem e sobram preconceitos e estereótipos que desestimulam e reforçam a idéia de que a tecnologia é um campo masculino. Não se trata de falta de interesse ou de habilidade, a PrograMaria acredita que é preciso rever essas narrativas culturais que dizem o que a mulher pode ou não fazer, além de oferecer ferramentas e oportunidades para que elas aprendam.",
+      cardDescription:"Para uma menina, o desafio de programar se inicia antes mesmo da tentativa de aprender. Faltam exemplos que inspirem e sobram preconceitos e estereótipos que desestimulam e reforçam a idéia de que a tecnologia é um campo masculino. Não se trata de falta de interesse ou de habilidade, a PrograMaria acredita que é preciso rever essas narrativas culturais que dizem o que a mulher pode ou não fazer, além de oferecer ferramentas e oportunidades para que elas aprendam.",
       linkTo:"https://www.programaria.org/"},
     {cardImage: sysadminas, 
       cardTitle:"SYSADMINAS", 
-      cardText:"A Comunidade SysAdminas é uma organização sem fins lucrativos e grupo solidário que oferece uma rede de apoio para mulheres que desejam aprender conteúdos de infraestrutura de TI em um ambiente acolhedor e seguro. Nossa missão é incentivar e inspirar mulheres a crescerem em suas carreiras na área de TI no Brasil.",
+      cardDescription:"A Comunidade SysAdminas é uma organização sem fins lucrativos e grupo solidário que oferece uma rede de apoio para mulheres que desejam aprender conteúdos de infraestrutura de TI em um ambiente acolhedor e seguro. Nossa missão é incentivar e inspirar mulheres a crescerem em suas carreiras na área de TI no Brasil.",
       linkTo:"https://www.sysadminas.com.br/"},
     {cardImage: mulheresemdados, 
       cardTitle:"MULHERES EM DADOS", 
-      cardText:"São um grupo formado por mulheres com diferentes níveis de experiência, diferentes carreiras e diferentes histórias e que têm em comum o interesse por dados e a vontade de melhorar a equidade de gênero nesse meio. Esperam contribuir cada vez mais por essa causa e construir uma rede de apoio cada vez mais forte e cheia de mulheres incríveis!",
+      cardDescription:"São um grupo formado por mulheres com diferentes níveis de experiência, diferentes carreiras e diferentes histórias e que têm em comum o interesse por dados e a vontade de melhorar a equidade de gênero nesse meio. Esperam contribuir cada vez mais por essa causa e construir uma rede de apoio cada vez mais forte e cheia de mulheres incríveis!",
       linkTo:"https://linktr.ee/mulheresemdados"},
     {cardImage: minasprogramam, 
       cardTitle:"MINAS PROGRAMAM", 
-      cardText:"O Minas Programam é uma iniciativa criada em 2015 para desafiar os estereótipos de gênero e de raça que influenciam nossa relação com as áreas de ciências, tecnologia e computação. Promovem oportunidades de aprendizado sobre programação para meninas e mulheres, priorizando àquelas que são negras ou indígenas.",
+      cardDescription:"O Minas Programam é uma iniciativa criada em 2015 para desafiar os estereótipos de gênero e de raça que influenciam nossa relação com as áreas de ciências, tecnologia e computação. Promovem oportunidades de aprendizado sobre programação para meninas e mulheres, priorizando àquelas que são negras ou indígenas.",
       linkTo:"https://minasprogramam.com/"},
     {cardImage: elasprogramam, 
       cardTitle:"ELAS PROGRAMAM", 
-      cardText:"Elas Programam é uma consultoria especializada em desenvolver soluções para engajamento, capacitação e contratação de talentos femininos de tecnologia.",
+      cardDescription:"Elas Programam é uma consultoria especializada em desenvolver soluções para engajamento, capacitação e contratação de talentos femininos de tecnologia.",
       linkTo:"https://www.elasprogramam.com.br/"},
     {cardImage: datagirls, 
       cardTitle:"DATA GIRLS", 
-      cardText:"Fazem parte do grupo Neuron - Data Science and Artificial Intelligence e iniciaram as atividades em 2019 com o objetivo de fomentar o engajamento feminino em ciência de dados, inteligência artificial e temas relacionados para que possam envolver, encorajar e fortalecer uma comunidade ativa de mulheres neste campo!",
+      cardDescription:"Fazem parte do grupo Neuron - Data Science and Artificial Intelligence e iniciaram as atividades em 2019 com o objetivo de fomentar o engajamento feminino em ciência de dados, inteligência artificial e temas relacionados para que possam envolver, encorajar e fortalecer uma comunidade ativa de mulheres neste campo!",
       linkTo:"https://linktr.ee/DataGirls"},
     {cardImage: meninasdigitais, 
       cardTitle:"PROGRAMA MENINAS DIGITAIS", 
-      cardText:"Tem como objetivo despertar o interesse de meninas estudantes do ensino médio e dos anos finais do ensino fundamental, para que estas conheçam melhor a área e sintam-se motivadas em seguir uma carreira em Computação. As ações do Programa são diversificadas: oferta de minicursos e oficinas; realização de dinâmicas; palestras com estudantes e profissionais que já atuam na área compartilhando suas experiências; realização de eventos etc.",
+      cardDescription:"Tem como objetivo despertar o interesse de meninas estudantes do ensino médio e dos anos finais do ensino fundamental, para que estas conheçam melhor a área e sintam-se motivadas em seguir uma carreira em Computação. As ações do Programa são diversificadas: oferta de minicursos e oficinas; realização de dinâmicas; palestras com estudantes e profissionais que já atuam na área compartilhando suas experiências; realização de eventos etc.",
       linkTo:"https://meninas.sbc.org.br/"},
     {cardImage: womakerscode, 
       cardTitle:"WOMAKERSCODE", 
-      cardText:"São uma organização dedicada a impulsionar mulheres na área da tecnologia. Oferecem diversas iniciativas e programas, como meetups (eventos), workshops e mentorias, abordando habilidades técnicas e competências pessoais (soft-skills), incentivando o networking e preparando-as para carreiras em tecnologia.",
+      cardDescription:"São uma organização dedicada a impulsionar mulheres na área da tecnologia. Oferecem diversas iniciativas e programas, como meetups (eventos), workshops e mentorias, abordando habilidades técnicas e competências pessoais (soft-skills), incentivando o networking e preparando-as para carreiras em tecnologia.",
       linkTo:"https://womakerscode.org/"},
     {cardImage: womentechmakers, 
       cardTitle:"WOMEN TECHMAKERS", 
-      cardText:"O programa Women Techmakers do Google oferece visibilidade, comunidade e recursos para mulheres em tecnologia.",
+      cardDescription:"O programa Women Techmakers do Google oferece visibilidade, comunidade e recursos para mulheres em tecnologia.",
       linkTo:"https://developers.google.com/womentechmakers?hl=pt-br"}
   ]
 
@@ -69,6 +69,7 @@ const Cursos = () => {
       return <div className={styles.cursosCards}
       key={indice+1}
       >
+        
       <Cards
         key={indice}
         image={item.cardImage} 
@@ -77,7 +78,6 @@ const Cursos = () => {
         description={item.cardDescription} 
         link={item.linkTo}
       /> 
-      
       </div>
     })
   }

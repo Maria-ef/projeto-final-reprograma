@@ -2,7 +2,10 @@ import sobre from "../assets/sobre-mim.jpg";
 import me from "../assets/maria-ef.jpg";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin2.png";
-import instagram from "../assets/instagram2.png"
+import instagram from "../assets/instagram2.png";
+
+import database from "../service/firebase";
+import { ref, push, set } from "firebase/database"
 
 import styles from "../styles/pages/sobre.module.css";
 
@@ -27,6 +30,18 @@ const Sobre = () => {
 
   function handleSubmit(e) {
     e.preventDefault();
+
+    const messageListRef = ref(database, 'mensagens') //cria uma coleção no firebase
+    const newMessageRef = push(messageListRef) //cria uma nova mensagem e enviar para nossa coleção "mensagens"
+    set(newMessageRef, {
+      nome: nome,
+      email: email,
+      texto: mensagem
+    })  
+
+    setNome('')
+    setEmail('')
+    setMensagem('')
   }
 
   return (
@@ -36,7 +51,7 @@ const Sobre = () => {
         <img className={styles.headerImage} src={sobre} />
       </header>
 
-      <main className={styles.aboutMe}>
+      <div className={styles.aboutMe}>
         <div>
           <img className={styles.photo} src={me} />
         </div>
@@ -74,7 +89,7 @@ const Sobre = () => {
             </li>
           </ul>
         </div>
-      </main>
+      </div>
      
       <div className={styles.contact}>
         <h1 className={styles.formTitle}>Entre em contato comigo</h1>
@@ -95,7 +110,7 @@ const Sobre = () => {
           />
           <textarea
             className={styles.formInput}
-            placeholder="Digite sua mensagem"
+            placeholder="Digite sua mensagem ou nos conte sua história"
             onChange={handleInputMensagem}
             value={mensagem}
           />
@@ -107,15 +122,15 @@ const Sobre = () => {
         <div className={styles.buttons}>
         <   div className={styles.github}>
                 <img className={styles.buttonImage} src={github} />
-                <button className={styles.button}><a href="https://github.com/Maria-ef" target="_blank"></a>GitHub</button>
+                <button className={styles.button}><a className={styles.sobreLink} href="https://github.com/Maria-ef" target="_blank">GitHub</a></button>
             </div>
             <div className={styles.linkedin}>
                 <img className={styles.buttonImage} src={linkedin}/>
-                <button className={styles.button}><a href="https://www.linkedin.com/in/maria-eduarda-ferreira-aab205270/" target="_blank"></a>LinkedIn</button>
+                <button className={styles.button}><a className={styles.sobreLink} href="https://www.linkedin.com/in/maria-eduarda-ferreira-aab205270/" target="_blank">LinkedIn</a></button>
             </div>
             <div className={styles.instagram}>
                 <img className={styles.buttonImage} src={instagram}/>
-                <button className={styles.button}><a href="https://www.instagram.com/_maduhb/" target="_blank"></a>Instagram</button>
+                <button className={styles.button}><a className={styles.sobreLink} href="https://www.instagram.com/_maduhb/" target="_blank">Instagram</a></button>
             </div>
         </div>
       </div>

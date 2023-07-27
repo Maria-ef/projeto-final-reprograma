@@ -18,7 +18,7 @@
 .cardImage {
     max-width: 25vh;
     height: auto;
-    margin-top: 5px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
@@ -33,25 +33,26 @@
     color: #d017b1;
     font-size: 1.5rem;
     font-weight: 800;
-    padding: 0.5rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .cardDescription {
     text-align:justify;
     font-family: sans-serif;
-    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .cardButton {
-       width: 30vh;
-       height: 5vh;
-       color: #fff;
+       width: 13vh;
+       height: 3vh;
+       color: #d017b1;
        font-family: sans-serif;
-       background-color: #d017b1;
+       background-color: #fff;
        border: none;
+       text-decoration: underline;
        border-radius: 15px;
-       align-items: end;
 }
 
 .cardButton:hover {
@@ -59,3 +60,20 @@
     box-shadow: 1px 1px 6px #434141;
 }
 
+@media screen and (max-width: 800px) {
+
+    .cards {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    }
+
+@media screen and (max-width: 600px) {
+
+.cardImage {
+    max-width: 15vh;
+}
+
+}

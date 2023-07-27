@@ -9,8 +9,10 @@ const Header = ({ title, image, text, description }) => {
         
       <div>
         <h3 className={styles.headerTitle}>{title}</h3>
-        <p className={styles.headerText}>{text}</p>
-        <p className={styles.headerDescription}>{description}</p>
+        <div className={styles.description}>
+          <p className={styles.headerText}>{text}</p>
+          <p className={styles.headerDescription}>{description}</p>
+        </div>
       </div>
     </header>
   );

@@ -24,3 +24,18 @@
 .logo {
     width: 28vh;
 }
+
+@media screen and (max-width: 1220px) {
+    .menuContainer {
+        display: flex;
+        flex-direction: column; /* Stack menu items vertically */
+        gap: 1rem; /* Reduce the gap between stacked menu items */
+        padding-top: 8rem; /* Remove padding to save space */
+        width: 100%;
+        margin-bottom: 7rem;
+    }
+
+    .logo {
+        width: 20vh; /* Adjust the logo size for smaller screens */
+    }
+}

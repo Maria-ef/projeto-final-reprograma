@@ -33,3 +33,19 @@
     font-weight: 500;
     font-family: sans-serif;
 }
+
+@media screen and (max-width: 1220px) {
+    .headerContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headerImage {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+}
