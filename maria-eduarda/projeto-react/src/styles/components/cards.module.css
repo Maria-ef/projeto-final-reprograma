@@ -1,6 +1,6 @@
 .cards {
     width: 100vh;
-    height: 45vh;
+    height: 50vh;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -80,6 +80,14 @@
 @media screen and (max-width: 520px) {
     .cardImage {
         max-width: 10vh;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .cards {
+        width: 40vh;
+        height: 70vh;
     }
 }
 
