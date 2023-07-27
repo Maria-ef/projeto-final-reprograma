@@ -1,5 +1,5 @@
 import sobre from "../assets/sobre-mim.jpg";
-import me from "../assets/maria-eduarda.jpg";
+import me from "../assets/maria-ef.jpg";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin2.png";
 import instagram from "../assets/instagram2.png"
@@ -107,15 +107,15 @@ const Sobre = () => {
         <div className={styles.buttons}>
         <   div className={styles.github}>
                 <img className={styles.buttonImage} src={github} />
-                <button className={styles.button}><a href="https://github.com/Maria-ef" target="_blank">Github</a></button>
+                <button className={styles.button}><a href="https://github.com/Maria-ef" target="_blank"></a>GitHub</button>
             </div>
             <div className={styles.linkedin}>
                 <img className={styles.buttonImage} src={linkedin}/>
-                <button className={styles.button}><a href="https://www.linkedin.com/in/maria-eduarda-ferreira-aab205270/" target="_blank">LinkedIn</a></button>
+                <button className={styles.button}><a href="https://www.linkedin.com/in/maria-eduarda-ferreira-aab205270/" target="_blank"></a>LinkedIn</button>
             </div>
             <div className={styles.instagram}>
                 <img className={styles.buttonImage} src={instagram}/>
-                <button className={styles.button}><a href="https://www.instagram.com/_maduhb/" target="_blank">Instagram</a></button>
+                <button className={styles.button}><a href="https://www.instagram.com/_maduhb/" target="_blank"></a>Instagram</button>
             </div>
         </div>
       </div>

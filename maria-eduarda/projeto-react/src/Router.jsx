@@ -18,7 +18,7 @@ const Router = () => {
         <Route path="/inspiracoes" element={<Inspiracoes/>} />
         <Route path="/sobre" element={<Sobre/>} />
       </Routes>
-      <Footer content="Feito por Maria Eduarda com amor <3!" />
+      <Footer content="Feito por Maria Eduarda com amor ❤️!" />
     </BrowserRouter>
   )
 }

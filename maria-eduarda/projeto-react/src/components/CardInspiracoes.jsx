@@ -1,8 +1,8 @@
-import styles from '../styles/components/cards.module.css'
-
 import { Link } from 'react-router-dom'
 
-const Cards = ({image, description, title, text, link}) => {
+import styles from '../styles/components/cardinspiracoes.module.css'
+
+const CardInspiracoes = ({image, description, title, link}) => {
     return (
         <div className={styles.cards}>
           <div className={styles.cardPhoto}>
@@ -10,10 +10,9 @@ const Cards = ({image, description, title, text, link}) => {
           </div>
           <div className={styles.cardText}>
             <h1 className={styles.cardTitle}>{title}</h1>
-            <p className={styles.cardDescription}>{text}</p>
             <p className={styles.cardDescription}>{description}</p>
             <Link to={link} target='_blank'>
-            <button className={styles.cardButton}>Saiba mais</button>
+            <button className={styles.cardButton}>LinkedIn</button>
             </Link>
             
           </div>
@@ -21,4 +20,4 @@ const Cards = ({image, description, title, text, link}) => {
     )
 }
 
-export default Cards;
+export default CardInspiracoes;
