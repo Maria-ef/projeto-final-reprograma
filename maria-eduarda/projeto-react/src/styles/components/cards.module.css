@@ -75,5 +75,11 @@
 .cardImage {
     max-width: 15vh;
 }
-
 }
+
+@media screen and (max-width: 520px) {
+    .cardImage {
+        max-width: 10vh;
+    }
+}
+

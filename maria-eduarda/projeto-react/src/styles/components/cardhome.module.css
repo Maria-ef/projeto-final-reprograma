@@ -50,3 +50,10 @@
     font-weight: 500;
     font-family: sans-serif;
 }
+
+@media screen and (max-width: 400px) {
+    .flipper {
+        display: flex;
+        width: 50%;
+    }
+}
