@@ -11,6 +11,8 @@ import styles from "../styles/pages/sobre.module.css";
 
 import { useState } from "react";
 
+import { Link } from 'react-router-dom'
+
 const Sobre = () => {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
@@ -120,17 +122,22 @@ const Sobre = () => {
         </form>
 
         <div className={styles.buttons}>
-        <   div className={styles.github}>
+           <div className={styles.github}>
+              <Link to="https://github.com/Maria-ef" target="_blank">
                 <img className={styles.buttonImage} src={github} />
-                <button className={styles.button}><a className={styles.sobreLink} href="https://github.com/Maria-ef" target="_blank">GitHub</a></button>
+              </Link>
             </div>
+
             <div className={styles.linkedin}>
-                <img className={styles.buttonImage} src={linkedin}/>
-                <button className={styles.button}><a className={styles.sobreLink} href="https://www.linkedin.com/in/maria-eduarda-ferreira-aab205270/" target="_blank">LinkedIn</a></button>
+                <Link to="https://www.linkedin.com/in/maria-eduarda-ferreira-aab205270/" target="_blank">
+                  <img className={styles.buttonImage} src={linkedin}/>
+                </Link>
             </div>
+
             <div className={styles.instagram}>
+              <Link to="https://www.instagram.com/_maduhb/" target="_blank">
                 <img className={styles.buttonImage} src={instagram}/>
-                <button className={styles.button}><a className={styles.sobreLink} href="https://www.instagram.com/_maduhb/" target="_blank">Instagram</a></button>
+              </Link>
             </div>
         </div>
       </div>

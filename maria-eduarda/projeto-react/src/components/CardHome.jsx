@@ -10,7 +10,7 @@ const CardHome = ({title, description}) => {
           <div className={styles.back}>
             <p className={styles.cardDescription}>{description}</p>
           </div>
-        </div>
+          </div>
       </div>
     )
 }

@@ -39,4 +39,12 @@
   box-shadow: 2px 2px 10px #f87de4; 
 }
 
+@media screen and (max-width: 600px) {
+.cards {
+  width: 30vh;
+  height: 25vh;
+}
+
+}
+  
 

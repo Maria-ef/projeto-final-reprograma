@@ -50,3 +50,20 @@
     font-weight: 500;
     font-family: sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+    .cardTitle {
+        font-size: 1rem;
+        justify-content: center;
+        text-align: center;
+        padding-top: 4.5rem;
+    }
+
+    .cardDescription {
+        font-size: 0.7rem;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1.5rem;
+    }
+}
+    

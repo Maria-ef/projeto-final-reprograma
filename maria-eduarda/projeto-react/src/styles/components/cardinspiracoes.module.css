@@ -19,7 +19,7 @@
 }
 
 .cardImage {
-    width: 50vh;
+    max-width: 35vh;
     border-radius: 200px;
 }
 
@@ -49,6 +49,7 @@
 .cards {
     width: 87%;
     justify-content: center;
+    overflow-y:scroll;
 }
 
 .cardImage {
@@ -81,7 +82,7 @@
     }
     
     .cardImage {
-      width: 17vh;
+        width: 17vh;
     }
     
 }

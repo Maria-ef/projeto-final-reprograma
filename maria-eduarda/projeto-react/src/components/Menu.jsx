@@ -7,7 +7,10 @@ import logo from '../assets/logo.jpg'
 const Menu = () => {
   return (
     <nav className={styles.menuContainer}>
-        <img className={styles.logo} src={logo} alt='logo do site' title='Logo do Site' /> 
+        <Link to="/">
+            <img className={styles.logo} src={logo} alt='logo do site' title='Logo do Site' /> 
+        </Link>
+        
         <li>
             <Link className={styles.menuLink} to="/">Home</Link>
         </li>
