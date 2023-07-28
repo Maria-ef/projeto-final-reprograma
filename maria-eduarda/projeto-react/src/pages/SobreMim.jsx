@@ -84,7 +84,7 @@ const Sobre = () => {
             <li className={styles.li}>Tenho 5 tatuagens;</li>
             <li className={styles.li}>Amo praia;</li>
             <li className={styles.li}>
-              Gosto de filmes e séries de inestigação criminal;
+              Gosto de filmes e séries de investigação criminal;
             </li>
             <li className={styles.li}>
               No meu tempo livre gosto de estar com as pessoas que amo.
