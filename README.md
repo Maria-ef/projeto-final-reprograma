@@ -56,7 +56,7 @@ Diante dessa realidade, surgiu a motivação para criar um website com o propós
 
 <br />
 
-##  `Tecnologias que utilizei` // ADD OU MODIFICAR ALGUMAS TECNOLOGIAS  
+##  `Tecnologias que utilizei` 
 
 | Ferramenta | Descrição |
 
